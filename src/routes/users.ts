@@ -9,7 +9,7 @@ export async function usersRouter(app: FastifyInstance) {
     });
 
     app.post('/', async (request, reply) => {
-        const newUser = await createUser(request);
+        const newUser = await createUser(request, reply);
         reply.send(newUser);
     });
 }

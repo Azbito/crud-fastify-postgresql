@@ -5,6 +5,7 @@
     "dependencies": {
         "@fastify/cookie": "^9.3.1",
         "@types/bcrypt": "5.0.2",
+        "@types/nodemailer": "6.4.15",
         "@types/pg": "8.11.6",
         "abort-controller": "^3.0.0",
         "abstract-logging": "^2.0.1",
@@ -36,6 +37,8 @@
         "json-schema-traverse": "^1.0.0",
         "knex": "^3.1.0",
         "light-my-request": "^5.13.0",
+        "mailtrap": "3.3.0",
+        "nodemailer": "6.9.13",
         "on-exit-leak-free": "^2.1.2",
         "pg": "8.11.5",
         "pino": "^9.1.0",
